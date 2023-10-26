@@ -14,5 +14,5 @@ dist
 .cache
 
 #styles
-styles.css
-styles.css.map
+style.css
+style.css.map
