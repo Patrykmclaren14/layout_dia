@@ -3,9 +3,12 @@
 .header {
   min-height: 100vh;
   display: grid;
+  box-sizing: border-box;
   grid-template-columns: repeat(2, 130px);
+  grid-template-rows: 1fr 5fr 5fr 3fr;
   background-color: $primary-page-color;
   column-gap: $grid-gap;
   height: 100vh;
   padding: 18px 20px 48px;
+  border-radius: 0 0 30px 30px;
 }
