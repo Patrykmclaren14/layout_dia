@@ -2,8 +2,8 @@
 @import "./utils/vars";
 @import "./utils/mixins";
 
-@import "./blocks/header.scss";
-@import "./blocks/nav.scss";
+@import "./blocks/header";
+@import "./blocks/nav";
 
 html {
   scroll-behavior: smooth;

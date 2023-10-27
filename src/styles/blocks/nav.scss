@@ -1,6 +1,16 @@
 .nav {
   grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
 
   &__list {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+  }
+
+  &__anchor {
+    display: grid;
   }
 }
