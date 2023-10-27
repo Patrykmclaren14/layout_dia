@@ -2,31 +2,31 @@
 
 .header {
   min-height: 100vh;
-  display: grid;
-  box-sizing: border-box;
-  grid-template-columns: repeat(2, 130px);
-  grid-template-rows: 1fr 5fr 5fr 3fr;
-  background-color: $primary-page-color;
-  column-gap: $grid-gap;
-  height: 100vh;
-  padding: 18px 20px 48px;
   border-radius: 0 0 30px 30px;
 
-  &__title {
-    justify-self: end;
-    color: #FFF;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 150%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  &__container {
+    height: 100vh;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 1fr 5fr 5fr 3fr;
+    background-color: $primary-page-color;
+    column-gap: $grid-gap;
+    padding: 18px 20px 48px;
+  }
 
-    &::after {
-      content: "";
-      display: block;
-      border-bottom: 2px solid #2060F6;
-      margin-top: 8px;
-    }
+  &__title {
+    grid-column: span 2;
+    align-self: end;
+  }
+
+  &__paragraph {
+    grid-column: span 2;
+    align-self: center;
+  }
+
+  &__button {
+    align-self: end;
+    grid-column: span 2;
   }
 }
