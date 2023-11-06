@@ -12,7 +12,3 @@ node_modules
 backstop_data
 dist
 .cache
-
-#styles
-style.css
-style.css.map
