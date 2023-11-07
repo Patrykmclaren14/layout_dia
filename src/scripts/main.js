@@ -7,12 +7,10 @@ const leftArrow = document.querySelectorAll('.left-arrow');
 const rightArrow = document.querySelectorAll('.right-arrow');
 
 leftArrow.forEach(element =>
-  element.addEventListener('click', myArrow)
-);
+  element.addEventListener('click', myArrow));
 
 rightArrow.forEach(element =>
-  element.addEventListener('click', myArrow)
-);
+  element.addEventListener('click', myArrow));
 
 function myArrow(e) {
   if (e.currentTarget.classList.contains('right-arrow') && sliderIndex < 2) {
